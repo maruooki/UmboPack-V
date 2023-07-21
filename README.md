@@ -1,4 +1,4 @@
-# umbopack-expert
+# UmboPack Expert
 
 my modpack series but better than last time
 
