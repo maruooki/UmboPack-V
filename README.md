@@ -1,5 +1,4 @@
 # UmboPack Expert
-
-my modpack series but better than last time
+The Official Repo and Issues Tracker of UmboPack Expert
 
 https://legacy.curseforge.com/minecraft/modpacks/umbopack-expert
