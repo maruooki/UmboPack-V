@@ -175,8 +175,5 @@
   "ae2:part_name": null,
   "ae2:part_icon": null,
   "ae2:part_tooltip": null,
-  "ae2:part_mod_name": null,
-  "player_companions:player_companion_entity_provider": null,
-  "player_companions:player_companion_collector_entity_provider": null,
-  "player_companions:player_companion_guard_entity_provider": null
+  "ae2:part_mod_name": null
 }

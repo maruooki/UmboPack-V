@@ -9,7 +9,7 @@ radarHideInvisibleEntities:true
 allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:true
-minimap:false
+minimap:true
 caveMaps:2
 caveZoom:1
 showWaypoints:true
@@ -128,5 +128,5 @@ interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:-5:-12:false:false:false:false
+interface:gui.xaero_minimap:69:-6:false:false:true:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints

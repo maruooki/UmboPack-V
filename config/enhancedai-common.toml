@@ -101,12 +101,18 @@
 
 	#Zombies can bite the player if are attacked with non-weapons
 	[Zombies."Biting Zombie"]
-		#Chance for a Zombie to bite a player
-		#Range: 0.0 ~ 1.0
-		Chance = 0.2
 		#The damage dealt to the player when bit
 		#Range: 0.0 ~ 1.7976931348623157E308
 		Damage = 3.0
+
+		#Chance for a Zombie to bite a player
+		[Zombies."Biting Zombie".Chance]
+			#Range: 0.0 ~ 1.0
+			"Easy/Peaceful" = 0.2
+			#Range: 0.0 ~ 1.0
+			Normal = 0.2
+			#Range: 0.0 ~ 1.0
+			Hard = 0.3
 
 		#Entities in this list will not be affected by this feature
 		[Zombies."Biting Zombie"."Entity Blacklist"]
