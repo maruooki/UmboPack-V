@@ -46,7 +46,7 @@
   "battery": {
     "chargerChargeRate_comment": "The chargers charging rate factor, which is applied to the charged items charge rate. 2 means it charges everything twice as fast. 0.5 half as fast.",
     "chargerChargeRate": 1.0,
-    "wirelessTerminal": 1600000,
+    "wirelessTerminal": 3200000,
     "chargedStaff": 8000,
     "entropyManipulator": 200000,
     "portableCell": 20000,
@@ -54,7 +54,7 @@
     "matterCannon": 200000
   },
   "worldGen": {
-    "spawnPressesInMeteorites": true
+    "spawnPressesInMeteorites": false
   },
   "wireless": {
     "wirelessBaseCost": 8.0,
@@ -71,13 +71,13 @@
   },
   "PowerRatios": {
     "ForgeEnergy": 0.5,
-    "UsageMultiplier": 1.0,
+    "UsageMultiplier": 1.2,
     "GridEnergyStoragePerNode_comment": "How much energy can the internal grid buffer storage per node attached to the grid.",
     "GridEnergyStoragePerNode": 25.0
   },
   "Condenser": {
-    "MatterBalls": 256,
-    "Singularity": 256000
+    "MatterBalls": 512,
+    "Singularity": 512000
   },
   "tickRates": {
     "_comment": " Min / Max Tickrates for dynamic ticking, most of these components also use sleeping, to prevent constant ticking, adjust with care, non standard rates are not supported or tested.",

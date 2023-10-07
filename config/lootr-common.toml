@@ -36,7 +36,7 @@ enable_break = false
 #disregard chests and chunks that are outside of the world border; enable this option if you are using a world border and are suffering consistent TPS issues; if you change the world border, you will need to restart your client
 check_world_border = false
 #allows fake players to destroy Lootr chests without having to sneak, overrides the `disable_break` option for fake players
-enable_fake_player_break = false
+enable_fake_player_break = true
 #when true, comparators on Lootr containers will give an output of 1; when false, they will give an output of 0
 power_comparators = true
 #lootr chests cannot be destroyed by creeper or TNT explosions

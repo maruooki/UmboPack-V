@@ -229,14 +229,14 @@
 	#Rats will conduct expensive CPU operations like looking for crops or chests, once every this number of ticks(with added standard deviation for servers)
 	#Range: 1 ~ 10000
 	"Rat Update Delay" = 100
+	#If true, wild rats will rarely spawn wearing a santa hat. Rats will spawn with Santa hats during the Christmas season regardless, this will enable you to find them year round.
+	"Rats Spawn with Santa Hats" = false
+	#If true, wild rats will rarely spawn wearing a randomly colored party hat. Rats will spawn with Party hats during the New Year's Eve and special dates regardless, this will enable you to find them year round.
+	"Rats Spawn with Party Hats" = false
 	#Default radius for tamed rats conducting their searches for items, harvests, etc.
 	#Range: > 1
 	"Default Rat Radius" = 16
 	#Largest possible radius for tamed rats conducting their searches for items, harvests, etc.
 	#Range: > 1
 	"Max Rat Radius" = 32
-	#If true, wild rats will rarely spawn wearing a santa hat. Rats will spawn with Santa hats during the Christmas season regardless, this will enable you to find them year round.
-	"Rats Spawn with Santa Hats" = false
-	#If true, wild rats will rarely spawn wearing a randomly colored party hat. Rats will spawn with Party hats during the New Year's Eve and special dates regardless, this will enable you to find them year round.
-	"Rats Spawn with Party Hats" = false
 

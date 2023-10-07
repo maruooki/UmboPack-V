@@ -2,13 +2,13 @@
 #General Settings
 [General]
 	#Disable mobs that use the Invisibility status effect when far from a player [Default: false]
-	disableInvisibility = false
+	disableInvisibility = true
 	#All mobs are now hostile [Default: false]
 	allPassiveMobsHostile = false
 	#Hostile day mobs will no longer attack players on sight [default: false]
 	passiveHostileMobs = false
 	#Stop befriended mobs from despawning [Default: false]
-	friendlyPersistence = false
+	friendlyPersistence = true
 
 #Attribute settings
 [Attributes]
@@ -62,7 +62,7 @@
 	spawnDaysPassed = false
 	#Amount of days required to have passed before they can start spawning [Default: 3]
 	#Range: > 1
-	spawnDaysSet = 3
+	spawnDaysSet = 1
 	#Level 3 mobs only spawn when it is raining/snowing [Default: false]
 	spawnLevel3Rain = false
 	#Remove spawn conditions related to height (Y-axis) [Default: false]

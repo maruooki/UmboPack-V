@@ -5,5 +5,5 @@
 	ignoreNeutralMobs = false
 	#The range to notify other mobs.
 	#Range: 0 ~ 512
-	range = 8
+	range = 4
 
