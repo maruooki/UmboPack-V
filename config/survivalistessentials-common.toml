@@ -6,7 +6,7 @@ FLINT_CHANCE = 0.6
 HEAL_RATE = 0.14
 #Slowdown speed when using incorrect tool.
 #Range: 0.1 ~ 1.0
-SLOW_DOWN_SPEED = 0.4
+SLOW_DOWN_SPEED = 1.0
 #Inverts blacklist to be whitelist. This allows for immersion mods/modpacks to only allow tools or armor for specific mods. Default: false
 INVERT_LIST_TO_WHITELIST = false
 #List of mods that tools will become wet noodles. If inverted, acts as a whitelist. Default: [""]
@@ -24,7 +24,7 @@ ENABLE_HUNGER_PENALTY = false
 HUNGER = 8
 #Saturation value after death. Range 0 to 20.
 #Range: 0 ~ 20
-SATURATION = 0
+SATURATION = 4
 #Health penalty feature. If after dying, player is rewarded with reduced health levels.
 ENABLE_HEALTH_PENALTY = false
 #Health value after death in half hearts.
@@ -35,7 +35,7 @@ HEALTH = 6.0
 STARTING_HEALTH_PENALTY = 0.0
 #The amount of generic damage in half hearts a disabled tool, or bare hand should do. Default 0
 #Range: 0 ~ 4
-GENERIC_DAMAGE = 0
+GENERIC_DAMAGE = 2
 #List of mods that armor will not be equipable for. If inverted, acts as a whitelist. Default: [""]
 armormods = []
 #List of individual armor items that will be disabled. If inverted, acts as a whitelist. Format modid:item Default: [""]

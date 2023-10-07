@@ -1,8 +1,9 @@
 ServerEvents.recipes(e => {
 
-    e.remove({output: 'natprog:flint_hatchet'})
+    e.remove({output: '#survivalistessentials:knife_tools'})
+    e.remove({output: '#survivalistessentials:axe_tools'})
     e.shaped(
-        Item.of('natprog:flint_hatchet'),
+        Item.of('survivalistessentials:crude_hatchet'),
         [
             'AB ',
             'AC ',
@@ -14,5 +15,11 @@ ServerEvents.recipes(e => {
             C: '#forge:rods/wooden'
         }
     )
+    // Remove any Instance of SE's Plant Fiber
+    e.replaceInput(
+        {mod: 'survivalistessentials'}, // Arg 1: the filter
+        'survivalistessentials:plant_fiber',            // Arg 2: the item to replace
+        'farmersdelight:straw'         // Arg 3: the item to replace it with
+      )
 
 })
