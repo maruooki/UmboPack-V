@@ -17,9 +17,9 @@ ServerEvents.recipes(e => {
     )
     // Remove any Instance of SE's Plant Fiber
     e.replaceInput(
-        {mod: 'survivalistessentials'}, // Arg 1: the filter
-        'survivalistessentials:plant_fiber',            // Arg 2: the item to replace
-        'farmersdelight:straw'         // Arg 3: the item to replace it with
+        {mod: 'survivalistessentials'},
+        'survivalistessentials:plant_fiber',
+        'farmersdelight:straw'
       )
 
 })

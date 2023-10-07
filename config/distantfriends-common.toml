@@ -9,7 +9,7 @@
 #Compat
 [compat]
 	#Add players from a Player Mobs whitelist to the Friends list [default: false]
-	playerMobsCompat = false
+	playerMobsCompat = true
 	#The player mobs Name Links
 	playerMobsWhitelist = [""]
 

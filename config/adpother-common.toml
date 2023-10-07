@@ -44,25 +44,25 @@ maxGasEntitiesInChunk = 10
 	#Enables / disables emissions from this source
 	Furnaces = true
 	#Enables / disables emissions from this source
-	BurntBlocks = true
+	BurntBlocks = false
 	#Enables / disables emissions from this source
 	Explosion = true
 	#Enables / disables emissions from this source
 	LavaTouchingWater = false
 	#Enables / disables emissions from this source
-	HostileMobDying = true
+	HostileMobDying = false
 	#Enables / disables emissions from this source
-	HostileMobBurning = true
+	HostileMobBurning = false
 	#Enables / disables emissions from this source
-	PlayerEating = true
+	PlayerEating = false
 	#Enables / disables emissions from this source
 	PlayerBurning = false
 	#Enables / disables emissions from this source
-	AnimalBurning = true
+	AnimalBurning = false
 	#Enables / disables emissions from this source
-	AnimalFeeding = true
+	AnimalFeeding = false
 	#Enables / disables emissions from this source
-	AnimalDying = true
+	AnimalDying = false
 	#Enables / disables emissions from this source
 	PlayerDying = true
 

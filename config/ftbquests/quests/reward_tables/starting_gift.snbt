@@ -1,0 +1,33 @@
+{
+	id: "137869247A771589"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					contentsUuid: [I;
+						847459233
+						527845535
+						-1547769709
+						-639035597
+					]
+					inventorySlots: 27
+					upgradeSlots: 1
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:prospector.lv"
+				tag: {
+					Charge: 100000L
+				}
+			}
+		}
+	]
+	title: "Starting Gift"
+}

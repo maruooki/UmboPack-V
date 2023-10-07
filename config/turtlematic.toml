@@ -9,7 +9,7 @@
 
 [turtlePeripherals]
 	enableTurtleChatter = true
-	enableCreativeChest = true
+	enableCreativeChest = false
 	enablePistonTurtle = true
 	enableStickyPistonTurtle = true
 	#Range: 0.0 ~ 10.0

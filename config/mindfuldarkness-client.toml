@@ -1,7 +1,7 @@
 #Print menu type to game chat whenever a new menu screen is opened. Intended for finding menu types to be added to "menu_blacklist".
-debug_container_types = true
+debug_container_types = false
 #Print screen identifier to game chat or log file whenever a new screen is opened. Intended for finding screens to be added to "font_color_blacklist".
-debug_all_screens = true
+debug_all_screens = false
 #Exclude certain menus from showing the dark mode switcher. Useful when the box intersects other screen elements.
 menu_blacklist = ["computercraft:computer"]
 #Specifies gui paths and resources to darken.

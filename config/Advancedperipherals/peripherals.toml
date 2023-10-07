@@ -46,7 +46,7 @@
 		defaultChatBoxPrefix = "AP"
 		#Defines the maximal range of the chat box in blocks. -1 for infinite. If the range is not -1, players in other dimensions won't able to receive messages
 		#Range: -1 ~ 30000000
-		chatBoxMaxRange = -1
+		chatBoxMaxRange = 80
 		#If true, the chat box is able to send messages to other dimensions than its own
 		chatBoxMultiDimensional = true
 
@@ -55,11 +55,11 @@
 		enableMeBridge = true
 		#Power consumption per tick.
 		#Range: > 0
-		mePowerConsumption = 10
+		mePowerConsumption = 30
 
 	[Peripherals.RS_Bridge]
 		#Enable the Rs Bridge or not.
-		enableRsBridge = true
+		enableRsBridge = false
 		#Power consumption per tick.
 		#Range: > 0
 		rsPowerConsumption = 10
@@ -70,7 +70,7 @@
 
 	[Peripherals.AR_Controller]
 		#Enable the AR goggles or not.
-		enableARGoggles = true
+		enableARGoggles = false
 
 	[Peripherals.Inventory_Manager]
 		#Enable the inventory manager or not.
@@ -90,7 +90,7 @@
 
 	[Peripherals.Colony_Integrator]
 		#Enable the colony integrator or not.
-		enableColonyIntegrator = true
+		enableColonyIntegrator = false
 
 	[Peripherals.Compass_Turtle]
 		#Enable the compass turtle or not.
@@ -98,14 +98,14 @@
 
 	[Peripherals.Powered_Peripherals]
 		#Enable RF storage for peripherals, that could use it
-		enablePoweredPeripherals = false
+		enablePoweredPeripherals = true
 		#Defines max energy storage in any powered peripheral
 		#Range: > 1000000
 		poweredPeripheralMaxEnergyStored = 100000000
 
 	[Peripherals.Pocket_Peripherals]
 		#If true, pockets will have infinite fuel
-		disablePocketFuelConsumption = true
+		disablePocketFuelConsumption = false
 
 	[Peripherals.Operations]
 		#Range: > 1000
