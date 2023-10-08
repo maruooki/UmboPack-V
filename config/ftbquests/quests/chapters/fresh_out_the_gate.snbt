@@ -6,6 +6,35 @@
 	id: "3E3D99DD18029EBD"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "65AA6B45B563052A"
+			tasks: [{
+				id: "2C5B67CA9A781E8D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "432DCB01D9C337B8"
+			tasks: [{
+				id: "2CBB44B67A10B603"
+				item: "survivalistessentials:book"
+				type: "item"
+			}]
+			title: "The First Book (of many)"
+			x: 0.0d
+			y: 5.0d
+		}
+	]
 	title: "Fresh Out The Gate"
 }

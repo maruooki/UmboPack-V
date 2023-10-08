@@ -145,6 +145,8 @@
 	"Rat Dig Strength" = 4.0
 	#True if tamed rats will destroy crops when they harvest them
 	"Rats Break Crops on Harvest" = true
+	#True if wild rats should be allowed to climb over tall blocks, such as fences and walls.
+	"Rats Climb over Fences and Walls" = true
 
 ["Rat Upgrades"]
 	#How much RF a rat with a basic energy transfer upgrade can transport at a time.
@@ -233,10 +235,7 @@
 	"Rats Spawn with Santa Hats" = false
 	#If true, wild rats will rarely spawn wearing a randomly colored party hat. Rats will spawn with Party hats during the New Year's Eve and special dates regardless, this will enable you to find them year round.
 	"Rats Spawn with Party Hats" = false
-	#Default radius for tamed rats conducting their searches for items, harvests, etc.
-	#Range: > 1
-	"Default Rat Radius" = 16
-	#Largest possible radius for tamed rats conducting their searches for items, harvests, etc.
-	#Range: > 1
-	"Max Rat Radius" = 32
+	#Defines the amount of rats you can store in a sack at one time.
+	#Range: 1 ~ 64
+	"Rat Sack Capacity" = 16
 

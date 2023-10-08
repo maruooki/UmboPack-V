@@ -1,0 +1,69 @@
+#Overrides all other config options for easy difficulty management
+#This value is changed by the in-game config. It does nothing otherwise.
+#Range: 0 ~ 4
+Difficulty = 2
+
+["Item settings"]
+	#Fire Resistance blocks all hot temperatures
+	"Fire Resistance Immunity" = true
+	#Ice Resistance blocks all cold temperatures
+	"Ice Resistance Immunity" = true
+	#Thermometer item is required to see world temperature
+	"Require Thermometer" = true
+
+["Misc temperature-related things"]
+	#Sets whether damage scales with difficulty
+	"Damage Scaling" = true
+	#When set to true, players cannot sleep if they are cold or hot enough to die
+	"Prevent Sleep When in Danger" = true
+
+["Details about how the player is affected by temperature"]
+	#Defines the minimum habitable temperature
+	#Range: -Infinity ~ Infinity
+	"Minimum Habitable Temperature" = 0.34285714286204083
+	#Defines the maximum habitable temperature
+	#Range: -Infinity ~ Infinity
+	"Maximum Habitable Temperature" = 1.619047619047619
+	#Rate at which the player's body temperature changes (default: 1.0 (100%))
+	#Range: 0.0 ~ Infinity
+	"Rate Multiplier" = 1.0
+
+["Temperature Effects"]
+
+	["Temperature Effects".Hot]
+		#When set to true, the player's view distance will decrease when they are too hot
+		"Heatstroke Fog" = true
+
+	["Temperature Effects".Cold]
+		#When set to true, some of the player's hearts will freeze when they are too cold, preventing regeneration
+		"Freezing Hearts" = true
+		#When set to true, the player's attack knockback will be reduced when they are too cold
+		"Cold Knockback Reduction" = true
+		#When set to true, the player's movement speed will be reduced when they are too cold
+		"Cold Slowness" = true
+		#When set to true, the player's mining speed will be reduced when they are too cold
+		"Cold Mining Fatigue" = true
+
+["Grace Period Details"]
+	#Grace period length in ticks (default: 6000)
+	#Range: > 0
+	"Grace Period Length" = 6000
+	#Enables the grace period (default: true)
+	"Grace Period Enabled" = true
+
+[Hearth]
+	#How strong the hearth is (default: 0.5)
+	#Range: 0.0 ~ 1.0
+	"Hearth Strength" = 0.5
+	#List of blocks that the hearth can spread through
+	#Use this list if the hearth isn't spreading through particular blocks that it should
+	"Hearth Spread Whitelist" = ["minecraft:iron_bars", "blue_skies:crystallized_leaves", "twilightforest:time_leaves", "regions_unexplored:cypress_leaves", "regions_unexplored:brimwood_leaves", "minecraft:mangrove_leaves", "twilightforest:thorn_leaves", "regions_unexplored:small_oak_leaves", "minecraft:acacia_leaves", "minecraft:jungle_leaves", "silentgear:netherwood_leaves", "minecraft:flowering_azalea_leaves", "regions_unexplored:redwood_leaves", "regions_unexplored:orange_maple_leaves", "twilightforest:sorting_leaves", "twilightforest:beanstalk_leaves", "blue_skies:starlit_leaves", "regions_unexplored:flowering_leaves", "minecraft:warped_wart_block", "twilightforest:rainbow_oak_leaves", "blue_skies:comet_leaves", "twilightdelight:ironwood_leaves", "minecraft:dark_oak_leaves", "regions_unexplored:kapok_leaves", "twilightforest:twilight_oak_leaves", "regions_unexplored:socotra_leaves", "regions_unexplored:eucalyptus_leaves", "blue_skies:lunar_leaves", "regions_unexplored:blackwood_leaves", "regions_unexplored:golden_larch_leaves", "regions_unexplored:enchanted_birch_leaves", "regions_unexplored:willow_leaves", "regions_unexplored:palm_leaves", "twilightforest:dark_leaves", "regions_unexplored:cobalt_webbing", "regions_unexplored:silver_birch_leaves", "regions_unexplored:mauve_leaves", "regions_unexplored:dead_leaves", "blue_skies:maple_leaves", "minecraft:cherry_leaves", "blue_skies:dusk_leaves", "regions_unexplored:joshua_leaves", "blue_skies:crescent_fruit_leaves", "regions_unexplored:maple_leaves", "blue_skies:bluebright_leaves", "gtceu:rubber_leaves", "regions_unexplored:pink_magnolia_leaves", "minecraft:oak_leaves", "minecraft:azalea_leaves", "regions_unexplored:white_magnolia_leaves", "regions_unexplored:dead_pine_leaves", "blue_skies:frostbright_leaves", "regions_unexplored:baobab_leaves", "regions_unexplored:red_maple_leaves", "twilightforest:mining_leaves", "twilightforest:transformation_leaves", "regions_unexplored:bamboo_leaves", "twilightforest:mangrove_leaves", "twilightforest:canopy_leaves", "regions_unexplored:blue_magnolia_leaves", "regions_unexplored:apple_oak_leaves", "minecraft:spruce_leaves", "regions_unexplored:ashen_leaves", "regions_unexplored:magnolia_leaves", "regions_unexplored:larch_leaves", "regions_unexplored:alpha_leaves", "minecraft:birch_leaves", "regions_unexplored:pine_leaves"]
+	#List of blocks that the hearth cannot spread through
+	#Use this list if the hearth is spreading through particular blocks that it shouldn't
+	"Hearth Spread Blacklist" = []
+
+["Cold Soul Fire"]
+	#Converts damage dealt by Soul Fire to cold damage (default: true)
+	#Does not affect the block's temperature
+	"Cold Soul Fire" = true
+

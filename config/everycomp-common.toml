@@ -79,6 +79,9 @@
 		[types.leaves_type.silentgear]
 			netherwood = true
 
+		[types.leaves_type.rats]
+			pirat = true
+
 	[types.wood_type]
 
 		[types.wood_type.regions_unexplored]
