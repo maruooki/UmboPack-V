@@ -2,8 +2,8 @@
 [General]
 	#How much faster is hydration depletion relative to hunger (1 means they will deplete at the same speed)
 	thirstDepletionModifier = 1.2
-	#If the keyword config should be taken into consideration
-	enableKeywordConfig = false
+	#Whether foods considered as drinks should have nutrition
+	enableDrinksNutrition = true
 
 ["Drinking Mechanics"]
 	#Stack size for water bottles

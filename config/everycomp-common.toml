@@ -132,6 +132,9 @@
 		[types.wood_type.gtceu]
 			rubber = true
 
+		[types.wood_type.rats]
+			pirat = true
+
 	[types.cake]
 
 		[types.cake.blue_skies]
