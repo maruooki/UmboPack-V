@@ -8,30 +8,102 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "65AA6B45B563052A"
+			description: ["Rocks can be found by breaking loose rock."]
+			id: "432DCB01D9C337B8"
+			shape: "gear"
+			subtitle: "ROCKS?!"
 			tasks: [{
-				id: "2C5B67CA9A781E8D"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-				title: "Any #minecraft:logs"
+				id: "455B04A02A492169"
+				item: "survivalistessentials:rock_stone"
 				type: "item"
 			}]
+			title: "The First Quest"
 			x: 0.0d
-			y: 2.5d
+			y: 0.0d
 		}
 		{
-			id: "432DCB01D9C337B8"
+			id: "3450896D3AA0A70F"
+			subtitle: "Right-Clicking rocks on hard surfaces usually gives you flint shards."
+			tasks: [
+				{
+					id: "0AE20D2A59DBAF19"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "6F9FFEDAAFB6FF77"
+					item: {
+						Count: 1b
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "4AF90A6388B93671"
+			rewards: [
+				{
+					count: 4
+					id: "6AF979A4D0314070"
+					item: "minecraft:torch"
+					title: "Torch"
+					type: "item"
+				}
+				{
+					id: "007728A35A2FC9B0"
+					item: {
+						Count: 1b
+						id: "survivalistessentials:crude_hatchet"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7DECDA26E279222B"
+					item: {
+						Count: 1b
+						id: "survivalistessentials:crude_hatchet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BA39B645743627D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+			]
+			title: "Finally Wood!"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "7504623C97A833E1"
 			tasks: [{
-				id: "2CBB44B67A10B603"
-				item: "survivalistessentials:book"
+				id: "656CC0A94820AECC"
+				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			title: "The First Book (of many)"
 			x: 0.0d
 			y: 5.0d
 		}

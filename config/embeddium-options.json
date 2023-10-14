@@ -16,6 +16,7 @@
     "use_entity_culling": true,
     "use_fog_occlusion": true,
     "use_block_face_culling": true,
+    "use_compact_vertex_format": true,
     "use_no_error_g_l_context": true
   },
   "notifications": {

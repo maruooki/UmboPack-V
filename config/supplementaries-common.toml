@@ -18,6 +18,9 @@
 		#Maximum block range
 		#Range: 0 ~ 100000000
 		range = 64
+		#Max text
+		#Range: 0 ~ 10000
+		max_text = 32
 
 	[redstone.bellows]
 		enabled = true
