@@ -1,0 +1,11 @@
+{
+    "name": "Pollution",
+    "icon": "adpother:iron_filter_frame",
+    "category": "patchouli:new_mechanics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "In UmboPack Expert, punching different hard materials will get you nowhere. Instead, you will need to gather different resources in order to obtain something as small as Wood."
+        }
+    ]
+}
