@@ -1,0 +1,108 @@
+{
+    "size": "medium",
+    "color": "#71955B",
+    "waves": [{
+            "entities": [{
+                    "entity": "minecraft:zombie"
+                },
+                {
+                    "entity": "minecraft:zombie"
+                },
+                {
+                    "entity": "minecraft:zombie"
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:zombie"
+                },
+                {
+                    "entity": "minecraft:zombie"
+                },
+                {
+                    "entity": "minecraft:husk"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "mutantmonsters:mutant_skeleton"
+                },
+                {
+                    "entity": "twilightforest:skeleton_druid"
+                },
+                {
+                    "entity": "twilightforest:skeleton_druid"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.30
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "max_wave_time": 2400,
+            "setup_time": 300
+        }
+    ],
+    "rewards": [{
+        "type": "chanced",
+        "chance": 0.5,
+        "reward":{
+            "type": "stack",
+            "stack": {
+            "item": "kubejs:umbocoin",
+            "count": 5
+            }
+        }
+    }],
+    "completion_xp": 500,
+	"spawn_range": 7
+}

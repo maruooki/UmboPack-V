@@ -82,6 +82,32 @@
 		[types.leaves_type.rats]
 			pirat = true
 
+		[types.leaves_type.aether]
+			skyroot = true
+			golden_oak = true
+			crystal = true
+			crystal_fruit = true
+			holiday = true
+			decorated_holiday = true
+
+		[types.leaves_type.deep_aether]
+			roseroot = true
+			flowering_roseroot = true
+			blue_roseroot = true
+			flowering_blue_roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+
+		[types.leaves_type.aether_redux]
+			blightwillow = true
+			glacia = true
+			gilded_oak = true
+			blighted_skyroot = true
+			pink_prismatic = true
+			teal_prismatic = true
+
 	[types.wood_type]
 
 		[types.wood_type.regions_unexplored]
@@ -134,6 +160,23 @@
 
 		[types.wood_type.rats]
 			pirat = true
+
+		[types.wood_type.aether]
+			skyroot = true
+
+		[types.wood_type.deep_aether]
+			roseroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+
+		[types.wood_type.aether_redux]
+			prismatic = true
+			blightwillow = true
+			cloudcap = true
+			springshroom = true
+			crystal = true
+			glacia = true
 
 	[types.cake]
 

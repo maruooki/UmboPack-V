@@ -9,7 +9,7 @@
 		#When joining a new world, should players be given a blueprint package?
 		#The blueprint package gives some blueprints when used (right-click).
 		#To change what is given, override the starter_blueprints loot table.
-		spawnWithStarterBlueprints = true
+		spawnWithStarterBlueprints = false
 
 	#Repair kit configs.
 	[item.repairKits]
@@ -145,7 +145,7 @@
 
 	[gear.upgrades]
 		#If true, upgrade parts may only be applied in an anvil.
-		applyInAnvilOnly = false
+		applyInAnvilOnly = true
 		#If true, parts that are replaced (swapped out) of a gear item are not returned to the player and are instead destroyed.
 		#This applies to the recipe where placing a gear item and a part into a crafting grid will swap out the part.
 		destroySwappedParts = false
@@ -202,5 +202,5 @@
 [other]
 	#Shows a "WIP" (work in progress) label in the tooltip of certain unfinished, but usable blocks and items
 	#Set to false to remove the text from tooltips
-	showWipText = true
+	showWipText = false
 
