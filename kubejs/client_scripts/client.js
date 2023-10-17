@@ -4,16 +4,13 @@
 
 console.info('Hello, World! (Loaded client scripts)')
 
-/*
-// JEI Related, DOESNT WORK WITH EMI INSTALLED, USE EMI CONFIG INSTEAD
-JEIEvents.hideItems(e => {
+REIEvents.groupEntries(e => {
+    // e.groupItemsByTag('gtceu:rei_groups/')
+       e.groupItemsByTag('gtceu:rei_groups/crushed_ores', 'Crushed Ores', 'forge:crushed_ores')
+       
+       e.groupItems('gtceu:rei_groups/item_pipe', 'Item Pipes', [
+        /gtceu:.*_item_pipe$/
+       ])
 
-    let items = ["fused_quartz_da_*", "fused_quartz_*", "clear_glass_*", "clear_glass_e_*"]
-e.hide(items.map((item) => `enderio:${item}`))
-
-    let spawner = ["broken_spawner"]
-e.hide(spawner.map((item) => `enderio:${item}`))
-    
 
 })
-*/

@@ -70,9 +70,6 @@
 			mining = true
 			sorting = true
 
-		[types.leaves_type.twilightdelight]
-			ironwood = true
-
 		[types.leaves_type.gtceu]
 			rubber = true
 
@@ -178,17 +175,9 @@
 			crystal = true
 			glacia = true
 
-	[types.cake]
-
-		[types.cake.blue_skies]
-			comet_berry_pie = true
-
 [entries]
 
 	[entries.wood_type]
-
-		[entries.wood_type.farmersdelight]
-			cabinet = true
 
 		[entries.wood_type.twilightforest]
 			hollow_log_horizontal = true

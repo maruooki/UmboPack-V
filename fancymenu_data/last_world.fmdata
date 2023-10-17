@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = true
-  world = %fancymenu_dummy_address%:25565
+  is_server = false
+  world = /home/maruooki/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/UmboPack Expert Official/.minecraft/saves/New World
 }
 
