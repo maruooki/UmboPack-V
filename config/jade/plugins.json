@@ -99,11 +99,6 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "player_companions": {
-    "player_companion_entity_provider": true,
-    "player_companion_collector_entity_provider": true,
-    "player_companion_guard_entity_provider": true
-  },
   "shetiphiancore": {
     "hud.rgb16": true,
     "hud": true,
