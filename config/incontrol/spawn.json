@@ -1,1 +1,12 @@
-[]
+[
+    {
+      "mob": "minecraft:enderman",
+      "gamestage": "prog2",
+      "when": "onjoin",
+      "result": "allow"
+    },
+    {
+        "mob": "minecraft:enderman",
+        "result": "deny"
+    }
+  ]

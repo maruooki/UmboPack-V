@@ -241,7 +241,7 @@
     B:RingofEnderEnabled=true
 
     # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
-    B:RingoftheSevenCursesEnabled=true
+    B:RingoftheSevenCursesEnabled=false
 
     # Whether or not Scroll of Ageless Wisdom should be enabled. [default: true, synchronized: yes]
     B:ScrollofAgelessWisdomEnabled=true
@@ -356,13 +356,13 @@
     I:AvariceScrollEmeraldChance=15
 
     # Attack speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:BerserkEmblemAttackSpeedBoost=1.0
+    D:BerserkEmblemAttackSpeedBoost=0.8
 
     # Damage increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:BerserkEmblemDamageBoost=1.0
+    D:BerserkEmblemDamageBoost=0.9
 
     # Damage resistance provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
-    D:BerserkEmblemResistanceBoost=0.5
+    D:BerserkEmblemResistanceBoost=0.4
 
     # Movement speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
     D:BerserkEmblemSpeedBoost=0.5
@@ -433,16 +433,16 @@
     B:EnigmaticAmuletMultiequip=false
 
     # If true, only original owner of Extradimensional Vessel will be able to pick it up. [default: false, synchronized: yes]
-    B:EnigmaticAmuletOwnerOnlyVessel=false
+    B:EnigmaticAmuletOwnerOnlyVessel=true
 
     # What fraction of player's experience should be stored in Extradimensional Vessel upon their death. Experience that is not stored will be lost forever. 1.0 means that all experience is saved. [range: 0.0 ~ 1.0, default: 1.0, synchronized: yes]
-    D:EnigmaticAmuletSavedXPFraction=1.0
+    D:EnigmaticAmuletSavedXPFraction=0.8
 
     # If true, color of Enigmatic Amulet will be assigned using player's name as seed for generating it, instead of randomly - so that every player will always receive one specific color. [default: false, synchronized: yes]
     B:EnigmaticAmuletSeededColorGen=false
 
     # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletVesselEnabled=true
+    B:EnigmaticAmuletVesselEnabled=false
 
     # Active ability cooldown for Heart of Creation. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 3, synchronized: yes]
     I:EnigmaticItemCooldown=3
@@ -613,19 +613,19 @@
     B:SuperMagnetRingSound=false
 
     # Attack damage of The Infinitum, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 15.0, synchronized: yes]
-    D:TheInfinitumAttackDamage=15.0
+    D:TheInfinitumAttackDamage=10.0
 
     # Attack speed of The Infinitum. [range: -32768.0 ~ 32768.0, default: -2.0, synchronized: yes]
     D:TheInfinitumAttackSpeed=-2.0
 
     # Attack damage bonus of The Infinitum against players and bosses. [range: 0 ~ 32768, default: 200, synchronized: yes]
-    I:TheInfinitumBossDamageBonus=200
+    I:TheInfinitumBossDamageBonus=180
 
     # Knockback bonus of The Infinitum. For Phantoms, this value is multiplied by 1.5. [range: 0 ~ 32768, default: 200, synchronized: yes]
     I:TheInfinitumKnockbackPowerBonus=200
 
     # Lifesteal bonus of The Infinitum. [range: 0 ~ 32768, default: 10, synchronized: yes]
-    I:TheInfinitumLifestealBonus=10
+    I:TheInfinitumLifestealBonus=5
 
     # Chance of lethal damage prevention when holding The Infinitum. [range: 0 ~ 100, default: 85, synchronized: yes]
     I:TheInfinitumUndeadProbability=85
@@ -634,13 +634,13 @@
     D:TheTwistAttackDamage=8.0
 
     # Attack speed of The Twist. [range: -32768.0 ~ 32768.0, default: -1.8, synchronized: yes]
-    D:TheTwistAttackSpeed=-1.8
+    D:TheTwistAttackSpeed=-3.0
 
     # Attack damage bonus of The Twist against players and bossess. [range: 0 ~ 32768, default: 300, synchronized: yes]
-    I:TheTwistBossDamageBonus=300
+    I:TheTwistBossDamageBonus=120
 
     # Knockback bonus of The Twist. For Phantoms, this value is multiplied by 1.5. [range: 0 ~ 32768, default: 300, synchronized: yes]
-    I:TheTwistKnockbackPowerBonus=300
+    I:TheTwistKnockbackPowerBonus=120
 
     # Base damage dealt by Darkness every half a second, when it devours a creature in proximity of bearer of the pearl. [range: 0.0 ~ 1000.0, default: 4.0, synchronized: yes]
     D:VoidPearlBaseDarknessDamage=4.0
@@ -649,7 +649,7 @@
     I:VoidPearlCooldown=0
 
     # Modifier for slowing down player's regeneration when bearing the pearl. This includes natural regeneration, as well as artificial healing effects that work over time. The greater it is, the slower player will regenerate. [range: 0.0 ~ 1000.0, default: 1.0, synchronized: yes]
-    D:VoidPearlRegenerationModifier=1.0
+    D:VoidPearlRegenerationModifier=2.0
 
     # Range in which Pearl of the Void will force darkness to devour living creatures. [range: 0.0 ~ 128.0, default: 16.0, synchronized: yes]
     D:VoidPearlShadowRange=16.0
@@ -661,7 +661,7 @@
     I:VoidPearlWitheringLevel=2
 
     # Amout of ticks for which bearer of the pearl will apply Withering effect to entities they attack. 20 ticks equals to 1 second. [range: 0 ~ 32768, default: 100, synchronized: yes]
-    I:VoidPearlWitheringTime=100
+    I:VoidPearlWitheringTime=80
 
     # Range in which Scroll of Ageless Wisdom collects experience orbs when active. [range: 1.0 ~ 128.0, default: 16.0, synchronized: yes]
     D:XPScrollCollectionRange=16.0
@@ -680,6 +680,13 @@
         minecraft:ender_dragon
         minecraft:wither
         minecraft:elder_guardian
+        totemic:baykok
+        botania:doppleganger
+        ars_nouveau:wilden_boss
+        alexsmobs:void_worm
+        alexsmobs:void_worm_part
+        undergarden:forgotten_guardian
+        minecraft:warden
      >
 
     # Maximum amount of Soul Crystals a player can lose before they won't drop anymore. If set to 10 - player can loose all of them, and doing so will result in permadeath. Each crystal lost subtracts 10% of from their maximum possible health value. [range: 1 ~ 10, default: 9, synchronized: no]
@@ -699,7 +706,7 @@
 
 "Save the Bees" {
     # If true, bees will never affected by the Second Curse of Ring of the Seven Curses. [default: false, synchronized: yes]
-    B:CursedRingDontTouchMyBees=false
+    B:CursedRingDontTouchMyBees=true
 }
 
 
@@ -711,10 +718,10 @@
 
 "The Seven Curses" {
     # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
-    I:CursedRingArmorDebuff=30
+    I:CursedRingArmorDebuff=20
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when it enters their inventory. This is different from ultra hardcore option as the way through which ring ends up in player's inventory does not matter. [default: false, synchronized: yes]
-    B:CursedRingAutoEquip=false
+    B:CursedRingAutoEquip=true
 
     # Set to false to disable ALL special drops that can be obtained from vanilla mobs when bearing Ring of the Seven Curses. [default: true, synchronized: yes]
     B:CursedRingEnableSpecialDrops=true
@@ -723,44 +730,47 @@
     I:CursedRingEnchantingBonus=10
 
     # Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening. [range: 0.01 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:CursedRingEndermenRandomportFrequency=1.0
+    D:CursedRingEndermenRandomportFrequency=0.05
 
     # Range in which Endermen can try to randomly teleport to bearers of the ring. [range: 8.0 ~ 32768.0, default: 32.0, synchronized: yes]
-    D:CursedRingEndermenRandomportRange=32.0
+    D:CursedRingEndermenRandomportRange=8.0
 
     # How much experience will drop from mobs to bearers of the ring, measured in percents. [range: 0 ~ 32768, default: 400, synchronized: yes]
-    I:CursedRingExperienceBonus=400
+    I:CursedRingExperienceBonus=250
 
     # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
     I:CursedRingFortuneBonus=1
 
     # How much knockback bearers of the ring take, measured in percents. [range: 0 ~ 32768, default: 200, synchronized: yes]
-    I:CursedRingKnockbackDebuff=200
+    I:CursedRingKnockbackDebuff=120
 
     # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
     I:CursedRingLootingBonus=1
 
     # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 50, synchronized: yes]
-    I:CursedRingMonsterDamageDebuff=50
+    I:CursedRingMonsterDamageDebuff=25
 
     # List of entities that should never be affected by the Second Curse of Ring of the Seven Curses. Examples: minecraft:iron_golem, minecraft:zombified_piglin. Changing this option required game restart to take effect. [default: , synchronized: no]
     S:CursedRingNeutralAngerBlacklist <
+        ars_nouveau:summon_skeleton
+        ars_nouveau:summon_wolf
+        minecraft:iron_golem
      >
 
     # Range in which neutral creatures are angered against bearers of the ring. [range: 4.0 ~ 32768.0, default: 24.0, synchronized: yes]
-    D:CursedRingNeutralAngerRange=24.0
+    D:CursedRingNeutralAngerRange=18.0
 
     # Range in which neutral creatures can see and target bearers of the ring even if they can't directly see them. [range: 0.0 ~ 32768.0, default: 4.0, synchronized: yes]
-    D:CursedRingNeutralXRayRange=4.0
+    D:CursedRingNeutralXRayRange=8.0
 
     # Defines how much damage bearers of the ring receive from any source. Measured as percentage. [range: 0 ~ 32768, default: 200, synchronized: yes]
-    I:CursedRingPainModifier=200
+    I:CursedRingPainModifier=150
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when entering a new world, instead of just being added to their inventory. [default: false, synchronized: yes]
     B:CursedRingUltraHardcore=false
 
     # Set to true to prevent curse of insomnia from actually doing anything. [default: false, synchronized: yes]
-    B:CursedRingdisableInsomnia=false
+    B:CursedRingdisableInsomnia=true
 }
 
 

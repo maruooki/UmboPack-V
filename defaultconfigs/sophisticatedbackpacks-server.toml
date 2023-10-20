@@ -13,6 +13,12 @@
 	itemDisplayDisabled = false
 	#Allows disabling logic that dedupes backpacks with the same UUID in players' inventory. This is here to allow turning off the logic just in case it would be causing performance issues.
 	tickDedupeLogicDisabled = false
+	#Determines if container items (those that override canFitInsideContainerItems to false) are able to fit in backpacks
+	containerItemsDisallowed = false
+	#List of blocks that are not allowed to connect to backpacks - e.g. "refinedstorage:external_storage"
+	noConnectionBlocks = []
+	#Determines if backpacks can be placed in container items (those that check for return value of canFitInsideContainerItems)
+	canBePlacedInContainerItems = false
 
 	#Leather Backpack Settings
 	[server.leatherBackpack]
@@ -405,12 +411,12 @@
 		#Range: 0.0 ~ 1.0
 		backpackDropChance = 0.025
 		#Chance increase per looting level of mob dropping backpack
-		#Range: 0.0 ~ 0.2
+		#Range: 0.0 ~ 0.3
 		lootingChanceIncreasePerLevel = 0.02
 
 	[server.nerfs]
 		#Determines if too many backpacks in player's inventory cause slowness to the player
-		tooManyBackpacksSlowness = false
+		tooManyBackpacksSlowness = true
 		#Maximum number of backpacks in player's inventory that will not cause slowness
 		#Range: 1 ~ 27
 		maxNumberOfBackpacks = 3

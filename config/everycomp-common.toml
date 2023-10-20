@@ -108,6 +108,15 @@
 		[types.leaves_type.eidolon]
 			illwood = true
 
+		[types.leaves_type.ad_astra]
+			glacian = true
+
+		[types.leaves_type.alexscaves]
+			ancient = true
+
+		[types.leaves_type.twilightdelight]
+			ironwood = true
+
 	[types.wood_type]
 
 		[types.wood_type.regions_unexplored]
@@ -181,6 +190,11 @@
 		[types.wood_type.eidolon]
 			illwood = true
 
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
+
 	[types.cake]
 
 		[types.cake.blue_skies]
@@ -202,4 +216,7 @@
 		[entries.wood_type.create]
 			window_pane = true
 			window = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
 
