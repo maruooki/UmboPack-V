@@ -2,17 +2,22 @@
   "feature": "railcraft:saltpeter",
   "placement": [
     {
+      "type": "minecraft:count",
+      "count": 0
+    },
+    {
       "type": "minecraft:in_square"
     },
     {
-      "type": "minecraft:heightmap",
-      "heightmap": "OCEAN_FLOOR_WG"
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_fluids",
-        "fluids": "minecraft:water"
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 80
+        },
+        "min_inclusive": {
+          "absolute": 20
+        }
       }
     },
     {

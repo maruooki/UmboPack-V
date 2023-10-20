@@ -1,24 +1,16 @@
 {
-  "feature": "silentgems:the_end/sapphire_ore",
+  "feature": "silentgems:overworld/sapphire_ore",
   "placement": [
     {
-      "type": "minecraft:height_range",
-      "height": {
-        "type": "minecraft:uniform",
-        "max_inclusive": {
-          "absolute": 128
-        },
-        "min_inclusive": {
-          "absolute": 0
-        }
-      }
+      "type": "minecraft:count",
+      "count": 0
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:count",
-      "count": 0
+      "count": 4
     },
     {
       "type": "minecraft:biome"

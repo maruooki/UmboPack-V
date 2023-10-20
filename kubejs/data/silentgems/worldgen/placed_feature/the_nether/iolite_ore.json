@@ -1,24 +1,16 @@
 {
-  "feature": "silentgems:the_nether/iolite_ore",
+  "feature": "silentgems:overworld/iolite_ore",
   "placement": [
     {
-      "type": "minecraft:height_range",
-      "height": {
-        "type": "minecraft:uniform",
-        "max_inclusive": {
-          "absolute": 80
-        },
-        "min_inclusive": {
-          "absolute": 20
-        }
-      }
+      "type": "minecraft:count",
+      "count": 0
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:count",
-      "count": 2
+      "count": 1
     },
     {
       "type": "minecraft:biome"
