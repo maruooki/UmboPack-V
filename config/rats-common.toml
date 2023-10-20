@@ -87,6 +87,8 @@
 	#The distance the Ratlantean Automaton can hit you with its laser.
 	#Range: > 0
 	"Ratlantean Automaton Ranged Attack Distance" = 10
+	#If true, the Ratlantean Automaton will only be summonable in Ratlantis. Building it in any other dimension will have no effect.
+	"Summon Ratlantean Automaton only in Ratlantis" = false
 
 [Neo-Ratlantean]
 	#If true, the Neo-Ratlantean will utilize Laser Portals in its fight that shoot lasers at you.
@@ -109,6 +111,8 @@
 	#The time it will take the Neo-Ratlantean to perform another attack after using the Mob Effect attack. Time is in ticks.
 	#Range: > 0
 	"Neo-Ratlantean Attack Cooldown after Effects" = 100
+	#If true, the Neo-Ratlantean will only be summonable in Ratlantis. Throwing the vial in any other dimension will have no effect.
+	"Summon Neo-Ratlantean only in Ratlantis" = false
 
 ["Flying Dutchrat"]
 	#How many blocks away the dutchrat can fly away from its home point, which is the spot where the bell was when summoned.
@@ -117,6 +121,8 @@
 	#How often the Flying Dutchrat will throw a sword. It will throw a sword every 1 in X attacks, X being the number defined.
 	#Range: > 0
 	"Flying Dutchrat Sword Throw Chance" = 5
+	#If true, the Flying Dutchrat will only be summonable in Ratlantis. Ringing the bell in any other dimension will have no effect.
+	"Summon Flying Dutchrat only in Ratlantis" = false
 
 ["Rat Baron"]
 	#The height above the ground the rat baron plane will hover around. A random amount of blocks between 0 and 10 will be added to the number provided at random points to keep things interesting.
@@ -128,6 +134,8 @@
 	#The amount of damage each bullet fired from the Rat Baron plane does. Setting to 0 will make the bullets purely visual.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Rat Baron Bullet Damage" = 0.5
+	#If true, the Rat Baron will only be summonable in Ratlantis. Activating the siren in any other dimension will have no effect.
+	"Summon Automaton only in Ratlantis" = false
 
 ["Rat Griefing"]
 	#True if wild rats will destroy and eat crops
@@ -217,6 +225,20 @@
 	"Upgrade Regeneration Rate" = 30
 	#If true, Rats that have the Psychic upgrade will pick up blocks and throw them towards enemies.
 	"Psychic Throws Blocks" = false
+	#If true, rats will recharge items held in their main hand when they have an energy upgrade.
+	"Rats Charge Held Items" = true
+	#How much RF per tick a rat can charge their held item with a basic energy transfer upgrade.
+	#Range: > 1
+	"Rat Item Charge Rate Basic" = 10
+	#How much RF per tick a rat can charge their held item with an advanced energy transfer upgrade.
+	#Range: > 1
+	"Rat Item Charge Rate Advanced" = 50
+	#How much RF per tick a rat can charge their held item with an elite energy transfer upgrade.
+	#Range: > 1
+	"Rat Item Charge Rate Elite" = 100
+	#How much RF per tick a rat can charge their held item with an extreme energy transfer upgrade.
+	#Range: > 1
+	"Rat Item Charge Rate Extreme" = 500
 
 ["Misc Rat Adjustments"]
 	#Rats will continue to breed in cages until there are this many rats in one cage block

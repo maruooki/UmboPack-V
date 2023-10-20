@@ -105,6 +105,9 @@
 			pink_prismatic = true
 			teal_prismatic = true
 
+		[types.leaves_type.eidolon]
+			illwood = true
+
 	[types.wood_type]
 
 		[types.wood_type.regions_unexplored]
@@ -174,6 +177,17 @@
 			springshroom = true
 			crystal = true
 			glacia = true
+
+		[types.wood_type.eidolon]
+			illwood = true
+
+	[types.cake]
+
+		[types.cake.blue_skies]
+			comet_berry_pie = true
+
+		[types.cake.enigmaticlegacy]
+			cosmic_cake = true
 
 [entries]
 

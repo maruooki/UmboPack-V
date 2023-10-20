@@ -1,9 +1,9 @@
 {
-  "feature": "silentgems:the_end/topaz_glowrose",
+  "feature": "silentgems:overworld/topaz_glowrose",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 256
+      "type": "minecraft:count",
+      "count": 0
     },
     {
       "type": "minecraft:in_square"
