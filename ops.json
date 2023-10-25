@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "1ffbc8e7-bc2f-4c92-a352-fd3bf6b3f043",
+    "name": "Maruooki",
+    "level": 2,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d4087b4d-c7d1-4b60-bd0a-9a8f681c35a0",
+    "name": "YoruVII",
+    "level": 2,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "06982bfa-e391-4d0a-9c94-b00eb02f4b70",
+    "name": "mMonolith",
+    "level": 2,
+    "bypassesPlayerLimit": false
+  }
+]

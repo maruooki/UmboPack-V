@@ -1,12 +1,17 @@
 [
     {
       "mob": "minecraft:enderman",
-      "gamestage": "prog2",
-      "when": "onjoin",
+      "phase": "after_day7",
+      "result": "allow"
+    },
+    {
+      "mod": "rats",
+      "phase": "after_day7",
       "result": "allow"
     },
     {
         "mob": "minecraft:enderman",
+        "mod": "rats",
         "result": "deny"
     }
   ]
