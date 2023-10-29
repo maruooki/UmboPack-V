@@ -1,1 +1,21 @@
-[]
+[
+    {
+      "name": "after_day7",
+      "conditions": {
+          "mindaycount": 7
+      }
+    },
+    {
+        "name": "after_day14",
+        "conditions": {
+            "mindaycount": 14
+        }
+    },
+      
+    {
+        "name": "after_day21",
+        "conditions": {
+            "mindaycount": 21
+        }
+      }
+  ]

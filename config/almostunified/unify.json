@@ -7,7 +7,9 @@
     "create",
     "thermal",
     "immersiveengineering",
-    "mekanism"
+    "mekanism",
+    "silentgems",
+    "eidolon"
   ],
   "stoneStrata": [
     "stone",
@@ -78,7 +80,19 @@
     "tin",
     "tungsten",
     "uranium",
-    "zinc"
+    "zinc",
+    "topaz",
+    "citrine",
+    "heliodor",
+    "moldavite",
+    "turquoise",
+    "kyanite",
+    "iolite",
+    "alexanderite",
+    "ammolite",
+    "rose_quartz",
+    "black_diamond",
+    "white_diamond"
   ],
   "priorityOverrides": {},
   "customTags": {},

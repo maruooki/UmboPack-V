@@ -9,5 +9,8 @@
   "depth": [
     0.15,
     1.5
+  ],
+  "dimensions": [
+    "minecraft:overworld"
   ]
 }

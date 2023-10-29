@@ -1,0 +1,16 @@
+[11:10:24] [WARN] [FabricLoader/Metadata]: The mod "switchy-proxy" contains invalid entries in its mod json:
+- Unsupported root entry "modmenu" at line 41 column 12
+[11:10:24] [WARN] [FabricLoader/Metadata]: The mod "switchy-core" contains invalid entries in its mod json:
+- Unsupported root entry "modmenu" at line 31 column 12
+[11:10:24] [WARN] [FabricLoader/Metadata]: The mod "switchy-client" contains invalid entries in its mod json:
+- Unsupported root entry "modmenu" at line 35 column 12
+[11:10:24] [WARN] [FabricLoader/Metadata]: The mod "switchy-ui" contains invalid entries in its mod json:
+- Unsupported root entry "modmenu" at line 36 column 12
+[11:10:24] [WARN] [FabricLoader/Metadata]: The mod "switchy-cardinal" contains invalid entries in its mod json:
+- Unsupported root entry "modmenu" at line 34 column 12
+[11:10:24] [WARN] [FabricLoader/Metadata]: The mod "switchy-cardinal-ui" contains invalid entries in its mod json:
+- Unsupported root entry "modmenu" at line 35 column 12
+[11:10:24] [WARN] [FabricLoader/Metadata]: The mod "switchy-compat" contains invalid entries in its mod json:
+- Unsupported root entry "modmenu" at line 44 column 12
+[11:10:24] [WARN] [FabricLoader/Metadata]: The mod "switchy-compat-ui" contains invalid entries in its mod json:
+- Unsupported root entry "modmenu" at line 36 column 12
