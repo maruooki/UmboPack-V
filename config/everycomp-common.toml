@@ -97,14 +97,6 @@
 			conberry = true
 			sunroot = true
 
-		[types.leaves_type.aether_redux]
-			blightwillow = true
-			glacia = true
-			gilded_oak = true
-			blighted_skyroot = true
-			pink_prismatic = true
-			teal_prismatic = true
-
 		[types.leaves_type.eidolon]
 			illwood = true
 
@@ -116,6 +108,21 @@
 
 		[types.leaves_type.twilightdelight]
 			ironwood = true
+
+		[types.leaves_type.occultism]
+			otherworld = true
+
+		[types.leaves_type.wizards_reborn]
+			arcane_wood = true
+
+		[types.leaves_type.ars_nouveau]
+			blue_archwood = true
+			green_archwood = true
+			purple_archwood = true
+			red_archwood = true
+
+		[types.leaves_type.ars_elemental]
+			yellow_archwood = true
 
 	[types.wood_type]
 
@@ -179,14 +186,6 @@
 			conberry = true
 			sunroot = true
 
-		[types.wood_type.aether_redux]
-			prismatic = true
-			blightwillow = true
-			cloudcap = true
-			springshroom = true
-			crystal = true
-			glacia = true
-
 		[types.wood_type.eidolon]
 			illwood = true
 
@@ -194,6 +193,15 @@
 			aeronos = true
 			strophar = true
 			glacian = true
+
+		[types.wood_type.wizards_reborn]
+			arcane_wood = true
+
+		[types.wood_type.treasure2]
+			wither = true
+
+		[types.wood_type.ars_nouveau]
+			archwood = true
 
 	[types.cake]
 

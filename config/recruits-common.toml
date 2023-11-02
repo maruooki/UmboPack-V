@@ -1,7 +1,7 @@
 #
 ###Version, do not change!##
 #Range: > 0
-Version = 26
+Version = 27
 
 #Monster and Pillager Config:
 [Hostiles]
@@ -19,7 +19,7 @@ Version = 26
 	#----Should Vindicators can spawn with shield and sword and AI to use these----
 	#	(takes effect after restart)
 	#	default: false
-	VindicatorSpawnItems = false
+	VindicatorSpawnItems = true
 	#
 	#----Should Pillagers attack Monsters----
 	#	(takes effect after restart)
@@ -34,7 +34,7 @@ Version = 26
 	#----Should Monsters attack Pillagers----
 	#	(takes effect after restart)
 	#	default: false
-	MonstersAttackPillagers = false
+	MonstersAttackPillagers = true
 	#
 	#----Should Pillagers do friendly fire ----
 	#	(takes effect after restart)
@@ -91,7 +91,7 @@ Version = 26
 	#	(takes effect after restart)
 	#	default: 64
 	#Range: 1 ~ 1280
-	MaxRecruitsForPlayer = 64
+	MaxRecruitsForPlayer = 20
 	#
 	#The amount of currency required to hire a shieldman.
 	#	(takes effect after restart)
@@ -110,6 +110,12 @@ Version = 26
 	#	default: 15
 	#Range: 0 ~ 999
 	RecruitCost = 4
+	#----RangedRecruitsNeedArrowsToShoot----
+	#	(takes effect after restart)
+	#	
+	#Should ranged recruits units need arrows to shoot?""
+	#default: false
+	RangedRecruitsNeedArrowsToShoot = false
 	#----Mount Whitelist----
 	#	(takes effect after restart)
 	#	ONLY Entities in this list can be mounted by a recruit, for example: ["minecraft:boat", "smallships:cog"]
@@ -172,13 +178,13 @@ Version = 26
 	#	(takes effect after restart)
 	#	default: 45
 	#Range: 1 ~ 60
-	PillagerPatrolSpawnInterval = 45
+	PillagerPatrolSpawnInterval = 30
 	#
 	#The interval in minutes a Recruit Patrol and Caravan can spawn.
 	#	(takes effect after restart)
 	#	default: 30
 	#Range: 1 ~ 60
-	RecruitPatrolSpawnInterval = 30
+	RecruitPatrolSpawnInterval = 60
 	#
 	#----Should modded Pillager Patrols spawn in the world?----
 	#	(takes effect after restart)
@@ -189,7 +195,7 @@ Version = 26
 	#	(takes effect after restart)
 	#	default: 25.0
 	#Range: 0.0 ~ 100.0
-	PillagerPatrolsSpawnChance = 25.0
+	PillagerPatrolsSpawnChance = 15.0
 	#
 	#----Should Recruits spawn as Patrols in the world?----
 	#	(takes effect after restart)
@@ -200,7 +206,7 @@ Version = 26
 	#	(takes effect after restart)
 	#	default: 15.0
 	#Range: 0.0 ~ 100.0
-	RecruitPatrolsSpawnChance = 15.0
+	RecruitPatrolsSpawnChance = 5.0
 
 #Recruit Village Config:
 [Villages]
@@ -210,13 +216,13 @@ Version = 26
 	#----False -> only one villager can become a recruit with one table.----
 	#	(takes effect after restart)
 	#	default: true
-	RecruitTablesPOIReleasing = true
+	RecruitTablesPOIReleasing = false
 	#
 	#Max Recruits in a Village Chunk to Spawn
 	#	(takes effect after restart)
 	#	default: 1
 	#Range: 1 ~ 10
-	MaxSpawnRecruitsInVillage = 3
+	MaxSpawnRecruitsInVillage = 4
 	#
 	#----Should Recruits instead of Iron Golems spawn in Villages ----
 	#	(takes effect after restart)
@@ -269,7 +275,7 @@ Version = 26
 	#	
 	#Should the key to open the command screen be toggled instead of held?""
 	#default: false
-	CommandScreenToggle = false
+	CommandScreenToggle = true
 	#
 	#----Should Recruits Make Villager "Huh?" sound?----
 	#	(takes effect after restart)
@@ -287,20 +293,20 @@ Version = 26
 	#----Should Neutral Recruits attack enemy players that are interacting with blocks immediately?----
 	#	(takes effect after restart)
 	#	default: true
-	NeutralRecruitsBlockInteractingEvents = true
+	NeutralRecruitsBlockInteractingEvents = false
 	#
 	#----Should Aggressive Recruits attack enemy players that are interacting with blocks immediately?----
 	#	(takes effect after restart)
 	#	default: true
-	AggroRecruitsBlockInteractingEvents = true
+	AggroRecruitsBlockInteractingEvents = false
 	#
 	#----Should Aggressive Recruits attack enemy players that are placing or breaking blocks immediately?----
 	#	(takes effect after restart)
 	#	default: true
-	AggroRecruitsBlockPlaceBreakEvents = true
+	AggroRecruitsBlockPlaceBreakEvents = false
 	#
 	#----Should Neutral Recruits attack enemy players that are placing or breaking blocks immediately?----
 	#	(takes effect after restart)
 	#	default: true
-	NeutralRecruitsBlockPlaceBreakEvents = true
+	NeutralRecruitsBlockPlaceBreakEvents = false
 

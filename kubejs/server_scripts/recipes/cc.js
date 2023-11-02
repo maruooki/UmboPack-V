@@ -1,10 +1,16 @@
 ServerEvents.recipes(e => {
+
+    const sless = e.shapeless
+    const shp = e.shaped
+
+
     e.remove({output: 'computercraft:computer_normal'})
     e.remove({output: 'computercraft:cable'})
     e.remove({input: 'computercraft:turtle_normal'})
     e.remove({output: 'computercraft:turtle_normal'})
+    e.remove({id: 'computercraft:computer_advanced'})
 
-    e.shapeless(
+    sless(
         Item.of('computercraft:cable', 4),
         [
             'morered:bundled_network_cable',
@@ -12,7 +18,7 @@ ServerEvents.recipes(e => {
         ]
     )
 
-    e.shaped(
+    shp(
         Item.of('computercraft:computer_normal'),
         [
             'ABA',
@@ -28,7 +34,7 @@ ServerEvents.recipes(e => {
         }
     )
 
-    e.shaped(
+    shp(
         Item.of('computercraft:turtle_normal'),
         [
             'ABA',

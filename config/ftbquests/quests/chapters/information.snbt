@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "information"
+	group: "4A95128457FF1715"
+	id: "7371C408DE960921"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["While these mods are hard to learn, they are some of the strongest tech mods when it comes to automation, as well as speed and efficiency."]
+			id: "4EA99F7B708A3F8E"
+			subtitle: "This category is for tech mods that are considered to be challenging and complex by nature."
+			tasks: [{
+				id: "6DE5A6AB54922110"
+				title: "What's This?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "railcraft:iron_crowbar"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24032165E758649D"
+			subtitle: "A mod about crafting rails and making them better."
+			tasks: [{
+				id: "07B38DA548FBDCBE"
+				title: "Railcraft"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Difficulty - &4Hard&r"
+				""
+				"GregTech has been modified to skip the Steam Age, meaning you'll start with LV machines."
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:iron_wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C11075D33EB8486"
+			subtitle: "A mod about gregging your tech."
+			tasks: [{
+				id: "64D3BFAEBA3E5F73"
+				title: "GregTech"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Difficulty - &4Hard&r"
+				""
+				"UmboPack V is equipped with plenty of peripherial mods, meaning you can automate just about everything and anything using CC."
+			]
+			icon: "computercraft:computer_advanced"
+			id: "6621F6EDEDD9EF5B"
+			subtitle: "Why use an automation mod when you can make your own?"
+			tasks: [{
+				id: "2AA11FA29986C20A"
+				title: "ComputerCraft"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Difficulty - &eIntermediate&r (Varies)"]
+			icon: {
+				Count: 1b
+				id: "ae2:item_storage_cell_256k"
+				tag: { }
+			}
+			id: "794E708D24454947"
+			subtitle: "Turning your items and fluids into digital storage since 2012."
+			tasks: [{
+				id: "7D04F109921B74AA"
+				title: "Applied Energistics 2"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Difficulty - &2Easy&r"
+				""
+				"Using the mod is &2easy&r, however obtaining it is &4not&r."
+			]
+			icon: "mffs:projector"
+			id: "1C43B01D79F53E65"
+			subtitle: "MFFS will keep the intruders at bay."
+			tasks: [{
+				id: "5EB25BBA91371AE8"
+				title: "Modular Force Field Systems"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Difficulty - &2Easy&r"]
+			icon: "morered:xor_gate"
+			id: "5C73C4E75CC20646"
+			subtitle: "Are you a redstone engineer that wants easier to work with redstone circuits? This mod is perfect for you."
+			tasks: [{
+				id: "13C393FAFA3AFDBC"
+				title: "More Red"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	title: "Information"
+}

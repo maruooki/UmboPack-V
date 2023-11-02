@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "information_6"
+	group: "40DFD688353D22E3"
+	id: "0B2AED23E6BB5CA8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This category is for tracking your progress in each dimension in UmboPack V."]
+			id: "4FE1D849E3977AD5"
+			subtitle: "If you're the type to want to explore and find loot, kill bosses, and become one of the greats, this is the category for you."
+			tasks: [{
+				id: "0ACD1A26841B11C3"
+				title: "What's This?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "714501A6B0C08504"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "113FF501DB05C190"
+				type: "dimension"
+			}]
+			title: "The Overworld"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "3010E51DA70C02EC"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "5A693249153E607A"
+				type: "dimension"
+			}]
+			title: "The Nether"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "6AFBBFFB8FBADD53"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "4BCD7F03E1BDD9E2"
+				type: "dimension"
+			}]
+			title: "The End"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "712F01B744316187"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "minecraft:glowstone"
+				id: "15B7C9231550E519"
+				type: "dimension"
+			}]
+			title: "The Aether"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "09EDD2D41CB1507D"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "4724409902F80669"
+				type: "dimension"
+			}]
+			title: "The Twilight Forest"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "2B263B84622AB387"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "7F7AC2DEC1F2577B"
+				type: "dimension"
+			}]
+			title: "The Everbright"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "17EF1DDB4749C35B"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "536F5BD46E8641DB"
+				type: "dimension"
+			}]
+			title: "The Everdawn"
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "Information"
+}

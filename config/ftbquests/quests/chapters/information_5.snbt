@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "information_5"
+	group: "5907D93472DCF92F"
+	id: "42390377B66321DC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["If you wish to challenge yourself and wish to make strong magic spells and weaponry, this is the category for you."]
+			id: "219922ABA3EACF80"
+			subtitle: "This category is for advanced and more involved magic mods."
+			tasks: [{
+				id: "4A5BDEFFC158E9A5"
+				title: "What's This?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Difficulty - &eIntermediate&r"]
+			icon: "bloodmagic:altar"
+			id: "5E6034ED2115C3B0"
+			subtitle: "Sometimes you need to get a little messy.."
+			tasks: [{
+				id: "3309796AA74539FE"
+				title: "Blood Magic"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Difficulty - &eIntermediate&r (Varies)"
+				""
+				""
+				"Most of these addons work with other advanced mods which is why it is here. Most glyphs are also much more specific and probably won't ever be used with basic spells."
+			]
+			icon: "tomeofblood:archmage_tome_of_blood"
+			id: "4BCF822703F34087"
+			subtitle: "Base Ars Nouveau not enough for you? Try out these addons!"
+			tasks: [{
+				id: "6E2D9EDEAC1A952F"
+				title: "Ars Nouveau Addons"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+	]
+	title: "Information"
+}

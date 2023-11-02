@@ -87,3 +87,9 @@ in_hand_renderer = "NOT_LOCKED"
 	#Allows minimap to follow player movement instead of only displaying current map
 	follow_player = true
 
+[moonlight_integration]
+	#Enables moonlight compat, which allows to place map markers on map via a special pin button
+	enabled = true
+	#Makes added pins follow you on minimap
+	follow_on_minimap = true
+

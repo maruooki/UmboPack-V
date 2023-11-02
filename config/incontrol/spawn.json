@@ -1,17 +1,6 @@
 [
     {
-      "mob": "minecraft:enderman",
-      "phase": "after_day7",
-      "result": "allow"
-    },
-    {
-      "mod": "rats",
-      "phase": "after_day7",
-      "result": "allow"
-    },
-    {
-        "mob": "minecraft:enderman",
-        "mod": "rats",
-        "result": "deny"
+      "mod": "grimoireofgaia",
+      "result": "deny"
     }
   ]

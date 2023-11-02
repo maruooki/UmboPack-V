@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "challenges"
+	group: "73B2025BE80E235A"
+	id: "13777DB1AC1C8E1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Challenges"
+}

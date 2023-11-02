@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "intro"
+	group: "6B46214C72822C84"
+	id: "5A86DCDB064BA627"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Casual Mode:"
+			"- Much easier than normal mode, but loses out on many benefits that normal mode has."
+			""
+			"Normal Mode:"
+			"- The &ntrue difficulty&r of UmboPack V."
+			"&4But...&r"
+			"- You take more damage"
+			"- You deal less damage"
+			"- If you catch on fire, it is infinite until you are in water/rain"
+			"- (Most) Neutral mobs are instantly aggro'd to you"
+			"&bHowever...&r"
+			"- You gain permanent +1 Looting and Fortune"
+			"- You recieve much more Experience"
+			"- Mobs drop more unique drops"
+			"- Permanent Ender Chest access"
+			"- Can use exclusive items that are quite strong."
+			""
+			"In UmboPack V, choosing your difficulty is &4&l&nPERMANENT&r, there is &l&4&nNO TURNING BACK&r."
+		]
+		id: "2ED54DE298AB1BF7"
+		subtitle: "Casual or Normal Mode?"
+		tasks: [{
+			id: "6007A8DFBBD46CA3"
+			title: "Difficulty"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Intro"
+}

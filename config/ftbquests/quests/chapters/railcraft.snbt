@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "railcraft"
+	group: "4A95128457FF1715"
+	id: "5101AA77C614BB7F"
+	order_index: 6
+	quest_links: [{
+		id: "74BA7E213707E046"
+		linked_quest: "24032165E758649D"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+	title: "Railcraft"
+}
