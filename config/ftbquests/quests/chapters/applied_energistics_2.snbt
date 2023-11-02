@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: "4A95128457FF1715"
+	id: "11217D7D832F6C5A"
+	order_index: 1
+	quest_links: [{
+		id: "1DD1DD8C90D3D3FD"
+		linked_quest: "794E708D24454947"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+	title: "AE2"
+}

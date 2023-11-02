@@ -1,10 +1,13 @@
 {
 	chapter_groups: [
 		{ id: "6B46214C72822C84", title: "Info" }
-		{ id: "6B0B463DC8802A00", title: "Intro" }
-		{ id: "525705B7D586F266", title: "Early Game" }
-		{ id: "3C8286977003912B", title: "Mid Game" }
-		{ id: "5E5B95BC2D1E6156", title: "Late Game" }
-		{ id: "73B2025BE80E235A", title: "End Game" }
+		{ id: "04770A448D4CEBB5", title: "Survivalist" }
+		{ id: "40DFD688353D22E3", title: "Adventurer" }
+		{ id: "549F5DA2934F8B7C", title: "Architect" }
+		{ id: "122BF253EA05F674", title: "Technician" }
+		{ id: "4A95128457FF1715", title: "Engineer" }
+		{ id: "1381D0C3107CBD76", title: "Magician" }
+		{ id: "5907D93472DCF92F", title: "Wizard" }
+		{ id: "73B2025BE80E235A", title: "Grandmaster" }
 	]
 }

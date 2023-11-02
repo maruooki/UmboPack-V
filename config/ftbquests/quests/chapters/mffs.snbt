@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mffs"
+	group: "4A95128457FF1715"
+	id: "21181654AFAEAC06"
+	order_index: 4
+	quest_links: [{
+		id: "1B16EB258DBEDA3F"
+		linked_quest: "1C43B01D79F53E65"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+	title: "MFFS"
+}

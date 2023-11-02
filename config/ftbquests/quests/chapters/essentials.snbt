@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "gettin_steamy"
-	group: "6B0B463DC8802A00"
-	id: "30573F1277865B6E"
+	filename: "essentials"
+	group: "04770A448D4CEBB5"
+	id: "382681711D9E4896"
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
-	title: "Gettin' Steamy"
+	title: "Essentials"
 }

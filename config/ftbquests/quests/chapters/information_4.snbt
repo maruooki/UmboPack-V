@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "information_4"
+	group: "1381D0C3107CBD76"
+	id: "35ACF8BE8E5D0A33"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["If you wish to use magic that doesn't require advanced knowledge or much work, this is the category for you."]
+			id: "05A297865586FFBB"
+			subtitle: "This category is for easier to understand and use magic mods."
+			tasks: [{
+				id: "466BBEBE58273528"
+				title: "What's This?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Only base Ars Noueau is covered in this category. If you wish to have a guide to follow for the addons as well, please refer to the Wizard category."]
+			icon: "ars_nouveau:novice_spell_book"
+			id: "4EBC322A2FA6139B"
+			rewards: [{
+				id: "6D2A895586993267"
+				item: "ars_nouveau:worn_notebook"
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "If you want to make your own configurable utility and damaging spells, this is the mod for you."
+			tasks: [{
+				id: "31B2AD13DB1A8AB9"
+				title: "Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			icon: "eidolon:shadow_gem"
+			id: "2087D747DDBF8494"
+			rewards: [{
+				id: "61E348E3C484BA4F"
+				item: "eidolon:codex"
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Is dark arts more your style? Check out Eidolon."
+			tasks: [{
+				id: "534D2F2AC9DDE3BA"
+				title: "Eidolon"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "Information"
+}

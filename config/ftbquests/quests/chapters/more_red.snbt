@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "more_red"
+	group: "4A95128457FF1715"
+	id: "6FF31EE3A1E69975"
+	order_index: 5
+	quest_links: [{
+		id: "4DCEBE1410788045"
+		linked_quest: "5C73C4E75CC20646"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+	title: "More Red"
+}

@@ -1,0 +1,128 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "information_3"
+	group: "549F5DA2934F8B7C"
+	id: "0C7D8E108BBA41DF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Want a break from the action? Try using these mods to make a nice build!"]
+			id: "1F473BEA04442EBE"
+			subtitle: "This category is for players who wish to just build and be creative."
+			tasks: [{
+				id: "0D3C9B52175EA820"
+				title: "What's This?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "framedblocks:framed_cube"
+			id: "6EE96D4857901508"
+			subtitle: "Why get a bunch of mods of retextured blocks, when you can just do that yourself?"
+			tasks: [{
+				id: "27F0075F81748C32"
+				title: "FramedBlocks"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			icon: "cookingforblockheads:white_kitchen_floor"
+			id: "7F3AA1D684D0C73F"
+			tasks: [{
+				id: "172F4E4AE294C045"
+				title: "Cooking for Blockheads"
+				type: "checkmark"
+			}]
+			title: "Cooking For Blockheads"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "platforms:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E0DB184F6CA1BCC"
+			tasks: [{
+				id: "7CDCF2EEB706BA53"
+				title: "PlatForms"
+				type: "checkmark"
+			}]
+			title: "Platforms"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			icon: "handcrafted:mangrove_chair"
+			id: "6BEC77C62432A60E"
+			tasks: [{
+				id: "4C92A8C39F5BB036"
+				title: "Handcrafted"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "xercapaint:item_palette"
+				tag: {
+					basic: [B;
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+					]
+				}
+			}
+			id: "774CEC0761CB9AB2"
+			subtitle: "Want to show off your artistic side? Joy of Painting allows you to."
+			tasks: [{
+				id: "65C8776E53D473BA"
+				title: "Joy of Painting"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "rechiseled:chisel"
+				tag: { }
+			}
+			id: "01F80369730979D3"
+			subtitle: "Allows for most vanilla blocks to have a different style. Connected textures included!"
+			tasks: [{
+				id: "234E6B88BE39C3BC"
+				title: "Rechiseled"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "Information"
+}

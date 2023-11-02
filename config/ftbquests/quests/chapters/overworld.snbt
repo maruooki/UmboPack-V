@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "40DFD688353D22E3"
+	id: "66A8B837185A0574"
+	order_index: 5
+	quest_links: [{
+		id: "2EDC5E922DD860EE"
+		linked_quest: "714501A6B0C08504"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+	title: "Overworld"
+}

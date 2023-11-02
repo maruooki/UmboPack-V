@@ -1,0 +1,36 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "information_2"
+	group: "122BF253EA05F674"
+	id: "1DB829CB237DE111"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["These tech mods might be easy and simplistic, but that doesn't stop them from being limiting."]
+			id: "36182D87D61B869A"
+			subtitle: "This category is for tech mods that are more simple and easier to use."
+			tasks: [{
+				id: "3D6C012A39DD37E3"
+				title: "What's This?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "functionalstorage:oak_1"
+			id: "3FACBF340D886F96"
+			subtitle: "If chests and barrels aren't your thing, try using these drawers instead."
+			tasks: [{
+				id: "5E44B34CAEFF264B"
+				title: "Functional Storage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Information"
+}

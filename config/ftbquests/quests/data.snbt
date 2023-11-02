@@ -17,6 +17,6 @@
 	}
 	pause_game: true
 	progression_mode: "default"
-	title: "UmboPack Expert"
+	title: "UmboPack V"
 	version: 13
 }

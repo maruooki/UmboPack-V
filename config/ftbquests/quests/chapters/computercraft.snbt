@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "computercraft"
+	group: "4A95128457FF1715"
+	id: "7687734E920006EF"
+	order_index: 2
+	quest_links: [{
+		id: "3848774490CF0C73"
+		linked_quest: "6621F6EDEDD9EF5B"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [{
+		id: "33A8569156C3FD64"
+		tasks: [{
+			id: "35F874FD7AE87CBC"
+			item: "computercraft:computer_normal"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -1.5d
+	}]
+	title: "ComputerCraft"
+}
