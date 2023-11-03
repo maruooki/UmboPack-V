@@ -56,6 +56,29 @@
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			icon: {
+				Count: 1b
+				id: "wizards_reborn:advanced_earth_crystal"
+				tag: {
+					random_stats: 1b
+				}
+			}
+			id: "6B1D010710D5B863"
+			rewards: [{
+				id: "189D1D513D9AF9F4"
+				item: "wizards_reborn:arcanemicon"
+				type: "item"
+			}]
+			subtitle: "Ironically it's called Wizard's Reborn, yet it's not in the Wizard category."
+			tasks: [{
+				id: "128952EDAA9E05EA"
+				title: "Wizard's Reborn"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
 	]
 	title: "Information"
 }

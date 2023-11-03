@@ -1,0 +1,35 @@
+{
+	id: "25DC8C1FE5031B7A"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "minecraft:chainmail_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						SelectedSlot: 0
+						Size: 6
+					}
+				}
+				id: "supplementaries:quiver"
+			}
+		}
+	]
+	title: "SK Quiver or Boots?"
+}

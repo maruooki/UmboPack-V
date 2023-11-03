@@ -1,0 +1,10 @@
+{
+	id: "7F2976CC9D7A38C4"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "qualitycrops:cookie_iron", only_one: true, team_reward: false, title: "Casual Mode" }
+		{ auto: "invisible", item: "enigmaticlegacy:cursed_ring", only_one: true, team_reward: false, title: "Normal Mode" }
+	]
+	title: "Ring"
+}

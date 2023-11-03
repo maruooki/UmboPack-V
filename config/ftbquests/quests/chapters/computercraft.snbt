@@ -11,15 +11,27 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	quests: [{
-		id: "33A8569156C3FD64"
-		tasks: [{
-			id: "35F874FD7AE87CBC"
-			item: "computercraft:computer_normal"
-			type: "item"
-		}]
-		x: 0.0d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			id: "33A8569156C3FD64"
+			tasks: [{
+				id: "35F874FD7AE87CBC"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "2E7C96C4B82711B4"
+			tasks: [{
+				id: "787C7097A47EDD67"
+				item: "computercraft:turtle_normal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+	]
 	title: "ComputerCraft"
 }

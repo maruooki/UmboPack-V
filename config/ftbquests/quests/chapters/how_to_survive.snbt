@@ -6,6 +6,17 @@
 	id: "5A0861B2D49CB769"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		description: ["You'll need to craft a &3Flint Knife&r and &3Crude Hatchet&r in order to obtain a crafting table."]
+		id: "2CEC37FEBCBE340C"
+		subtitle: "To compress on space, here's what you need to know."
+		tasks: [{
+			id: "0FFB3C6710908840"
+			item: "minecraft:crafting_table"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "The First Nights"
 }

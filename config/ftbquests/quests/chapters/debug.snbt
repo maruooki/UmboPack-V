@@ -1,0 +1,22 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "debug"
+	group: "73B2025BE80E235A"
+	id: "7E057594EFE64797"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		hide: true
+		id: "6A73E85A892129F9"
+		tasks: [{
+			id: "08D5F56C36B55589"
+			item: "enigmaticlegacy:cursed_ring"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "debug"
+}

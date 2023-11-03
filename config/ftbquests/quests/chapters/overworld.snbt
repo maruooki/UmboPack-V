@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "overworld"
 	group: "40DFD688353D22E3"
+	icon: "minecraft:grass_block"
 	id: "66A8B837185A0574"
 	order_index: 5
 	quest_links: [{

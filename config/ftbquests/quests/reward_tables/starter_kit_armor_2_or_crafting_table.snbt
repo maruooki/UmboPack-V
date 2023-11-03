@@ -1,0 +1,23 @@
+{
+	id: "06A06815E19DFEE7"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "railcraft:steel_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:crafting_table" }
+	]
+	title: "Starter Kit Armor 2 or Crafting Table"
+}

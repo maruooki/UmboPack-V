@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_addons"
+	group: "5907D93472DCF92F"
+	id: "2C5301A4F95E61C2"
+	order_index: 1
+	quest_links: [{
+		id: "7EE6CF7CD538790B"
+		linked_quest: "4BCF822703F34087"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+	title: "Ars Addons"
+}

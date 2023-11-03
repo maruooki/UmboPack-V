@@ -1,0 +1,13 @@
+{
+	id: "0551035B54A3C0A3"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "aether:red_cape" }
+		{ item: "aether:blue_cape" }
+		{ item: "aether:yellow_cape" }
+		{ item: "aether:white_cape" }
+		{ item: "aether:agility_cape", weight: 0.15f }
+	]
+	title: "Capes"
+}

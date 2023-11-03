@@ -1,0 +1,77 @@
+{
+	id: "07A41AE0CBB7777B"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 8, item: "minecraft:oak_log" }
+		{ count: 8, item: "minecraft:spruce_log" }
+		{ count: 8, item: "minecraft:birch_log" }
+		{ count: 8, item: "minecraft:jungle_log" }
+		{ count: 8, item: "minecraft:acacia_log" }
+		{ count: 8, item: "minecraft:cherry_log" }
+		{ count: 8, item: "minecraft:dark_oak_log" }
+		{ item: "cold_sweat:thermometer", weight: 0.9f }
+		{ item: "minecraft:jukebox" }
+		{ item: "minecraft:composter" }
+		{ item: "minecraft:anvil" }
+		{ item: "minecraft:smoker" }
+		{ item: "minecraft:blast_furnace" }
+		{ item: "minecraft:smithing_table" }
+		{ item: "minecraft:grindstone" }
+		{ item: "minecraft:cartography_table" }
+		{ count: 8, item: "minecraft:chain" }
+		{ item: "minecraft:compass" }
+		{ item: "minecraft:golden_apple", weight: 0.5f }
+		{ item: "minecraft:lead" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:shears"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "minecraft:bone" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ironchests:copper_chest" }
+		{ item: "ironchests:iron_chest", weight: 0.8f }
+		{ count: 2, item: "minecraft:bookshelf" }
+		{ count: 4, item: "minecraft:amethyst_shard" }
+		{ count: 16, item: "minecraft:experience_bottle" }
+		{
+			count: 8
+			item: {
+				Count: 1b
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:regeneration"
+				}
+			}
+		}
+		{ count: 8, item: "minecraft:egg" }
+		{ item: "minecraft:saddle" }
+		{ count: 2, item: "minecraft:ender_pearl" }
+		{ item: "minecraft:spyglass" }
+		{ item: "minecraft:map" }
+		{ item: "minecraft:clock" }
+		{ count: 8, item: "minecraft:gunpowder" }
+		{ item: "minecraft:heart_of_the_sea", weight: 0.1f }
+		{ count: 4, item: "minecraft:glow_ink_sac" }
+		{ count: 4, item: "minecraft:ink_sac" }
+		{ count: 16, item: "minecraft:leather" }
+		{ count: 16, item: "minecraft:string" }
+		{ count: 8, item: "minecraft:feather" }
+		{ count: 16, item: "minecraft:flint" }
+		{ count: 6, item: "minecraft:iron_ingot" }
+	]
+	title: "Humble Beginnings"
+}

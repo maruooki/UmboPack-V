@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "5907D93472DCF92F"
+	id: "4156D169066D0016"
+	order_index: 2
+	quest_links: [{
+		id: "0F384626A8C76E0B"
+		linked_quest: "5E6034ED2115C3B0"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+	title: "Blood Magic"
+}
