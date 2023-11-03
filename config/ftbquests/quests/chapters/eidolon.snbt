@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eidolon"
+	group: "1381D0C3107CBD76"
+	id: "7D6DD735F9CE8AF0"
+	order_index: 2
+	quest_links: [{
+		id: "300B43942FD43E91"
+		linked_quest: "2087D747DDBF8494"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+	title: "Eidolon"
+}

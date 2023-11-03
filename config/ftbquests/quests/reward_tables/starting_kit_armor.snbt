@@ -1,0 +1,23 @@
+{
+	id: "6B355D5B3CE84952"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "minecraft:chainmail_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "minecraft:cooked_beef", random_bonus: 2 }
+	]
+	title: "Starting Kit Armor or Food"
+}

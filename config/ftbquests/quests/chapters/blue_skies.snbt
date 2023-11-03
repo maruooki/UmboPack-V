@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "blue_skies"
 	group: "40DFD688353D22E3"
+	icon: "blue_skies:everbright_portal"
 	id: "79F226CEF10C0FA8"
 	order_index: 2
 	quest_links: [ ]

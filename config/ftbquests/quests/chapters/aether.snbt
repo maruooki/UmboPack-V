@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "aether"
 	group: "40DFD688353D22E3"
+	icon: "minecraft:glowstone"
 	id: "693723B473F14555"
 	order_index: 1
 	quest_links: [ ]

@@ -6,6 +6,447 @@
 	id: "382681711D9E4896"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "077B00397012D052"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E9E8AB0041CD3D7"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15D0CADFEB514AE2"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							478672994
+							-2056699148
+							-2115508720
+							-532474649
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "517D16D587F5F980"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54ABDE5E6B808983"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A371B933966D8BE"
+				item: {
+					Count: 1b
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "3F3C7CE7ED1161C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16E68C3B61045C58"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63F7B3AB2E3022B7"
+				item: {
+					Count: 1b
+					id: "survivalistessentials:crude_hatchet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -2.5d
+		}
+		{
+			id: "551F64AD56E35C12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41F8E0BE29AA63DA"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D6AC0845F654FCC"
+				item: {
+					Count: 1b
+					id: "survivalistessentials:crude_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "223ED80A99F6FDE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07BB7459C5240A73"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2691DCA7E895B76B"
+				item: "cold_sweat:thermometer"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -2.5d
+		}
+		{
+			id: "549C0E9F9E0C00A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35AC7B7AE70D9EC3"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			subtitle: "Some crops can only grow in certain seasons."
+			tasks: [{
+				id: "49149CFDBC965304"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			description: ["You can also use Glowstone or Glow Ink Sacs to light them up."]
+			id: "277A67833E67033B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64E4A9CE4EC6287F"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			subtitle: "Chalk can be used to retrace your steps."
+			tasks: [{
+				id: "2F154319AF77689B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "chalk:chalks"
+					}
+				}
+				title: "Any #chalk:chalks"
+				type: "item"
+			}]
+			title: "Chalk"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "0DA103FB9B7DB9CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50A3E808F5DA1624"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			subtitle: "Cooks food only, but 2x as fast."
+			tasks: [{
+				id: "6D3B795FF320A9E9"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -1.0d
+		}
+		{
+			id: "46A9802ACCD4C228"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26EE1965C80339C4"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			subtitle: "Smelts ores only, but 2x as fast."
+			tasks: [{
+				id: "4ACAF804D3643F2F"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "209EF3ED4840D8D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F968E434C9D131F"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6192D2DEDF815B32"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.0d
+		}
+		{
+			id: "4470A136A9015A90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F030FD4128666C0"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63AFF945DEEB8622"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:shields"
+					}
+				}
+				title: "Any #forge:shields"
+				type: "item"
+			}]
+			title: "Shield"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "3FF4C5BA157717EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55254419F389D1BD"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			subtitle: "Has much more functionality in UmboPack V."
+			tasks: [{
+				id: "67C78F29A579D518"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "5776F6CB59B0D381"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55C6448A1ED393D6"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			subtitle: "Your first Minimap/World Map."
+			tasks: [{
+				id: "2A919050A898839B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							maps: [I; ]
+						}
+					}
+					id: "map_atlases:atlas"
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 0.5d
+		}
+		{
+			id: "07DF04D6D2A933A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3492868969A038FE"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			subtitle: "Uses water to cool you down or warm you up."
+			tasks: [{
+				id: "242196A13BBEE06E"
+				item: "cold_sweat:waterskin"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.5d
+		}
+		{
+			id: "0085DEC626DA6088"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "623273C5FDC8EA6A"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52896B6467A3172A"
+				item: {
+					Count: 1b
+					id: "grapplemod:grapplinghook"
+					tag: {
+						Damage: 0
+						custom: {
+							angle: 20.0d
+							attract: 0b
+							attractradius: 3.0d
+							crc32: 2252267022L
+							detachonkeyrelease: 0b
+							doublehook: 0b
+							enderstaff: 0b
+							hookgravity: 1.0d
+							maxlen: 30.0d
+							motor: 0b
+							motoracceleration: 0.2d
+							motordampener: 0b
+							motormaxspeed: 4.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							oneropepull: 0b
+							phaserope: 0b
+							playermovementmult: 1.0d
+							pullbackwards: 1b
+							reelin: 1b
+							repel: 0b
+							repelforce: 1.0d
+							rocket: 0b
+							rocket_active_time: 0.5d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							rocket_vertical_angle: 0.0d
+							smartdoublemotor: 1b
+							smartmotor: 0b
+							sneakingangle: 10.0d
+							sneakingverticalthrowangle: 0.0d
+							sticky: 0b
+							throwspeed: 2.0d
+							verticalthrowangle: 0.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "60A2A14439A037E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "557A9D40028DED3E"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "666B8BD90D6CBE3C"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "16E660DFB2B00BC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34CB48092ACA1153"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05A992E8C0F0E067"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "7D6EFEE38CC55329"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "511F8831F03C3542"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			subtitle: "Most mobs can break through wooden doors, few can break an iron door."
+			tasks: [{
+				id: "5E662CA618678393"
+				item: "minecraft:iron_door"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "64D28229D8702DE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "146EDB75DCA24252"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F21AC7858D89A3C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "Bed"
+			x: -1.25d
+			y: 2.0d
+		}
+		{
+			id: "54BE6FFADDA67392"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0944C63A2B75CD3E"
+				table_id: 550594607238838139L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4667E23EF9DCD469"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.0d
+		}
+	]
 	title: "Essentials"
 }

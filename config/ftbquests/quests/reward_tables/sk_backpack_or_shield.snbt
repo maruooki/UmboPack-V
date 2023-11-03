@@ -1,0 +1,38 @@
+{
+	id: "79A424DF5882CF5B"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					contentsUuid: [I;
+						478672994
+						-2056699148
+						-2115508720
+						-532474649
+					]
+					inventorySlots: 27
+					upgradeSlots: 1
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "SK Backpack or Shield"
+}

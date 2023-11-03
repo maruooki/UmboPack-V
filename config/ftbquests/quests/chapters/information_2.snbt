@@ -20,6 +20,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["36182D87D61B869A"]
+			description: ["Difficulty - &2Easy&r"]
+			hide: true
 			icon: "functionalstorage:oak_1"
 			id: "3FACBF340D886F96"
 			subtitle: "If chests and barrels aren't your thing, try using these drawers instead."
@@ -29,6 +32,18 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:beehive"
+			id: "41341CB0765CD446"
+			subtitle: "Using genetically modified bees to get what you want."
+			tasks: [{
+				id: "4B118706A4CBB92C"
+				title: "Productive Bees"
+				type: "checkmark"
+			}]
+			x: -1.5d
 			y: -1.5d
 		}
 	]

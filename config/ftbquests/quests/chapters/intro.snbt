@@ -6,36 +6,221 @@
 	id: "5A86DCDB064BA627"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"Casual Mode:"
-			"- Much easier than normal mode, but loses out on many benefits that normal mode has."
-			""
-			"Normal Mode:"
-			"- The &ntrue difficulty&r of UmboPack V."
-			"&4But...&r"
-			"- You take more damage"
-			"- You deal less damage"
-			"- If you catch on fire, it is infinite until you are in water/rain"
-			"- (Most) Neutral mobs are instantly aggro'd to you"
-			"&bHowever...&r"
-			"- You gain permanent +1 Looting and Fortune"
-			"- You recieve much more Experience"
-			"- Mobs drop more unique drops"
-			"- Permanent Ender Chest access"
-			"- Can use exclusive items that are quite strong."
-			""
-			"In UmboPack V, choosing your difficulty is &4&l&nPERMANENT&r, there is &l&4&nNO TURNING BACK&r."
-		]
-		id: "2ED54DE298AB1BF7"
-		subtitle: "Casual or Normal Mode?"
-		tasks: [{
-			id: "6007A8DFBBD46CA3"
-			title: "Difficulty"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: [
+				"Casual Mode:"
+				"- Much easier than normal mode, but loses out on many benefits that normal mode has."
+				""
+				"Normal Mode:"
+				"- The &ntrue difficulty&r of UmboPack V."
+				"&4But...&r"
+				"- You take more damage"
+				"- You deal less damage"
+				"- If you catch on fire, it is infinite until you are in water/rain"
+				"- (Most) Neutral mobs are instantly aggro'd to you"
+				"&bHowever...&r"
+				"- You gain permanent +1 Looting and Fortune"
+				"- You recieve much more Experience"
+				"- Mobs drop more unique drops"
+				"- Permanent Ender Chest access"
+				"- Can use exclusive items that are quite strong."
+				""
+				"In UmboPack V, choosing your difficulty is &4&l&nPERMANENT&r, there is &l&4&nNO TURNING BACK&r."
+			]
+			id: "2ED54DE298AB1BF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "260092C64DFF23FA"
+				table_id: 9162985538049423556L
+				team_reward: true
+				type: "choice"
+			}]
+			subtitle: "Casual or Normal Mode?"
+			tasks: [{
+				id: "6007A8DFBBD46CA3"
+				title: "Difficulty"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A73E85A892129F9"]
+			hide: true
+			id: "77F2EC074EDB384A"
+			optional: true
+			rewards: [
+				{
+					auto: "invisible"
+					description: "You get bonuses for choosing Normal!"
+					id: "18064FE21ABC6F9F"
+					team_reward: false
+					title: "Normal Mode Bonuses"
+					type: "toast"
+				}
+				{
+					auto: "enabled"
+					count: 4
+					id: "67563382FB27E440"
+					item: "pneumaticcraft:sourdough_bread"
+					only_one: true
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 8
+					id: "0E6741EF2612826A"
+					item: "pneumaticcraft:bandage"
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "13A94CB10BC0F6D5"
+					table_id: 383091134100127907L
+					team_reward: false
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3CD21E1719FE753F"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			title: "Normal Mode Bonuses"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2ED54DE298AB1BF7"]
+			description: [
+				"When playing with others, use &b&n/ftbteams party create&r and &b&n/ftbteams party invite&r to invite them to your party for quest sync."
+				""
+				"To interact with anything in your friend's claims, use &a&n/openpac-parties create&r and &a&n/openpac-parties member invite&r to invite them."
+				""
+				"Make sure each person chose their difficulty and starter kit first before making a party."
+			]
+			id: "2373D6CB473C34E5"
+			subtitle: "Make sure to invite your friends for quest and chunk sync."
+			tasks: [{
+				id: "70E0E15E7DC273AC"
+				title: "Read if playing with friends"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["2ED54DE298AB1BF7"]
+			description: [
+				"Q. Is the questbook required to complete the modpack?"
+				""
+				"A. It's not required, but highly recommended as many recipes were changed and the quests give sort of a guide of what's next to do. It's also the only way to unlock more chunks to claim, and most quests give rewards."
+				"{@pagebreak}"
+				"Q. Is there staging of items, recipes, etc.?"
+				""
+				"A. While there's not strict staging, some mods require previous mods materials in order to be obtained and used."
+				""
+				""
+				"Q. Is there hordes, blood moons, anything like that?"
+				""
+				"A. Yes, there are blood moons, hordes that become more aggressive and try to break into your base and steal items, but they are rare and spawn much later in the game."
+			]
+			id: "70F91E90853D56CF"
+			subtitle: "If you're curious about anything, give this a read."
+			tasks: [{
+				id: "62B59A86F92E8E2B"
+				title: "FAQ"
+				type: "checkmark"
+			}]
+			x: -1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2ED54DE298AB1BF7"]
+			id: "0976586E24222FFC"
+			tasks: [{
+				id: "60DC906FC0CC6A02"
+				title: "placeholder"
+				type: "checkmark"
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			description: [
+				"Each part of the kit is modular, meaning you choose 1 item from each category. This makes your choices matter more."
+				""
+				"Some things to remember:"
+				"- You must use the right tool to mine something. This includes stone and wood."
+				""
+				"- Mobs are strong and can pose a challenge."
+			]
+			id: "7AC77B4910238613"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F6B1B90801E4F41"
+					table_id: 1154193960772515602L
+					title: "Weapon or Tool?"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60F11364104693CE"
+					table_id: 7725183382269217106L
+					title: "Chestplate or Food?"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B8A56C2DF631BAF"
+					table_id: 477496003690102503L
+					title: "Leggings or Crafting Table?"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "778512BABD7F452F"
+					table_id: 8765171316451102555L
+					title: "Backpack or Shield?"
+					type: "choice"
+				}
+				{
+					count: 32
+					id: "545525F0C275683C"
+					item: "minecraft:arrow"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35F4DCB6422924DB"
+					table_id: 2728209542893738874L
+					title: "Quiver or Boots?"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74E7A8A7229841B0"
+					table_id: 6012207958687949333L
+					title: "Helmet or Grappling Hook?"
+					type: "choice"
+				}
+			]
+			subtitle: "Read before choosing."
+			tasks: [{
+				consume_items: true
+				id: "1ECDB4EB7C64C6C0"
+				item: "kubejs:starterkitwip"
+				type: "item"
+			}]
+			title: "Specialized Starter Kit Selection"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
 	title: "Intro"
 }

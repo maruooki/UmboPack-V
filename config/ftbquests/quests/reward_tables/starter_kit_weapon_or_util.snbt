@@ -1,0 +1,44 @@
+{
+	id: "1004854AC9BF3712"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:wooden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Starter Kit Weapon or Util"
+}

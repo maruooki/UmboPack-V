@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "productive_bees"
+	group: "122BF253EA05F674"
+	id: "102EEFC62E81EE20"
+	order_index: 2
+	quest_links: [{
+		id: "49EA4FD0FC6AF492"
+		linked_quest: "41341CB0765CD446"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+	title: "Productive Bees"
+}
